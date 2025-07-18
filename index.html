@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amna Zafar | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar + Hero Section -->
+  <header class="hero-section" id="home">
+    <nav class="navbar">
+      <div class="logo">Amna Zafar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Hello, I'm <span class="animated-name">Amna Zafar</span></h1>
+      <p class="tagline">Front-End Developer & Student of Software Engineering</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn secondary">Contact Me</a>
+        <a href="Amna_Zafar_Resume.pdf" target="_blank" class="btn-resume">
+          <i class="fas fa-file-alt"></i> View Resume
+        </a>
+
+      </div>
+    </div>
+  </header>
+  <!--  About Me-->
+  <section id="about" class="about-section">
+    <div class="about-card">
+      <div class="about-image">
+        <img src="image02.jpeg" alt="Amna Zafar Profile Picture" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm <strong>Amna Zafar</strong>, a passionate <strong>Front-End Developer</strong> currently pursuing a
+          3-year Higher Diploma in Software Engineering with AI at <strong>Aptech</strong>. I'm in my 2nd semester,
+          learning advanced front-end and backend topics like JSON and Java.
+        </p>
+        <p>
+          I’ve already built 15+ projects using HTML, CSS, JavaScript, and Bootstrap. My goal is to grow as a
+          responsive web developer and contribute to real-world projects through internships or remote jobs.
+        </p>
+        <ul class="about-list">
+          <li><strong>🎓 Certificate:</strong> CPISM-Proficiency in Information Systems Management</li>
+          <li><strong>📚 Tools:</strong> Git, GitHub, VS Code, Bootstrap, AOS, Google Fonts</li>
+          <li><strong>💼 GitHub:</strong> <a href="https://github.com/amnazafar-25"
+              target="_blank">github.com/amnazafar-25</a></li>
+          <li><strong>📧 Email:</strong> <a href="mailto:amnazafar2807@gmail.com">amnazafar2807@gmail.com</a></li>
+          <li><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/aamna-zafar07"
+              target="_blank">linkedin.com/in/aamna-zafar07</a></li>
+          <li><strong>📍 Location:</strong> Karachi, Pakistan</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+
+      <!-- Filter Tabs -->
+      <div class="skill-filters" data-aos="fade-up" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="frontend">Front-End</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+        <button class="filter-btn" data-filter="optimization">Optimization</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+        <!-- Front-End -->
+        <span class="skill-item frontend"><i class="fab fa-html5"></i> HTML5</span>
+        <span class="skill-item frontend"><i class="fab fa-css3-alt"></i> CSS3</span>
+        <span class="skill-item frontend"><i class="fab fa-js"></i> JavaScript</span>
+        <span class="skill-item frontend"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+        <span class="skill-item frontend"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+        <span class="skill-item frontend"><i class="fas fa-code"></i> DOM Manipulation</span>
+        <span class="skill-item frontend"><i class="fas fa-heading"></i> Semantic HTML</span>
+
+        <!-- Tools -->
+        <span class="skill-item tools"><i class="fab fa-git-alt"></i> Git</span>
+        <span class="skill-item tools"><i class="fab fa-github"></i> GitHub</span>
+        <span class="skill-item tools"><i class="fas fa-laptop-code"></i> VS Code</span>
+        <span class="skill-item tools"><i class="fas fa-code-branch"></i> Version Control</span>
+        <span class="skill-item tools"><i class="fas fa-database"></i> JSON</span>
+        <span class="skill-item tools"><i class="fas fa-cogs"></i> REST APIs</span>
+        <span class="skill-item tools"><i class="fab fa-java"></i> Java (Basic)</span>
+
+        <!-- Optimization -->
+        <span class="skill-item optimization"><i class="fas fa-search"></i> SEO Best Practices</span>
+        <span class="skill-item optimization"><i class="fas fa-universal-access"></i> Accessibility (a11y)</span>
+        <span class="skill-item optimization"><i class="fas fa-tachometer-alt"></i> Performance Optimization</span>
+        <span class="skill-item optimization"><i class="fas fa-eye"></i> Cross-Browser Testing</span>
+        <span class="skill-item optimization"><i class="fas fa-adjust"></i> Code Optimization</span>
+      </div>
+    </div>
+  </section>
+  <!--  Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>3D Animation Cards</h3>
+          <p>Interactive 3D hover effect cards using HTML, CSS & JS.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Animation</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/3d-animation-cards/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/3d-animation-cards" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Quiz App</h3>
+          <p>JavaScript-based quiz with score tracking and result UI.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">DOM</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/quiz-app-js/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/quiz-app-js" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Calculator</h3>
+          <p>Simple calculator built with HTML, CSS & JavaScript.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/calculator-js/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/calculator-js" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Burger Bliss Website</h3>
+          <p>Responsive HTML/CSS website for a fictional burger brand.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Responsive</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/burger-bliss/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/burger-bliss" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Portfolio Generator</h3>
+          <p>Landing page design using CSS for portfolio promo.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/portfolio-generator/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/portfolio-generator" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Login & Signup Form</h3>
+          <p>Glassmorphism styled responsive login/signup UI.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Glassmorphism</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/login-signup-form/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/login-signup-form" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Contact Form</h3>
+          <p>Responsive contact form with validation design.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Validation</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/contactform/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/contactform" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Pricing Table</h3>
+          <p>Flip card-style animated pricing UI in HTML & CSS.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Animation</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/pricingtable/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/pricingtable" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Bootstrap Grid Layout</h3>
+          <p>9-card feature layout using Bootstrap responsive grid.</p>
+          <div class="project-tags">
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/bootstrap-grid-layouut/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/bootstrap-grid-layouut" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 10 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Scroll Light CSS</h3>
+          <p>Animated light effect on scroll using pure CSS.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Animation</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/scroll-lightCSS/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/scroll-lightCSS" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 11 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Realistic Lamp</h3>
+          <p>CSS-only realistic lamp animation — fully responsive.</p>
+          <div class="project-tags">
+            <span class="tag">CSS</span>
+            <span class="tag">Animation</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/realistic-lamp-css/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/realistic-lamp-css" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 12 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Loading Animations</h3>
+          <p>Set of 4 beautiful loaders: bar, dots, ripple & spinner.</p>
+          <div class="project-tags">
+            <span class="tag">CSS</span>
+            <span class="tag">Animations</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/loading-animations/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/loading-animations" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 13 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Animated Social Icons</h3>
+          <p>Animated hover icons using just HTML & CSS.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Animation</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/animated-social-icons/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/animated-social-icons" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 14 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Stationery E-Commerce</h3>
+          <p>Mini shop UI with cart logic using HTML, CSS & JS.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Cart Logic</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/stationery-shop/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/stationery-shop" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 15 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>To-Do List</h3>
+          <p>JavaScript To-Do list app with local storage support.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">LocalStorage</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/todo-list-js/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/todo-list-js" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 16 -->
+        <div class="project-card" data-aos="fade-up">
+          <h3>Weather App</h3>
+          <p>Live weather app with API integration, loading effect.</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">API</span>
+          </div>
+          <div class="project-links">
+            <a href="https://amnazafar-25.github.io/weather-app/" target="_blank" class="btn-icon">
+              <i class="fas fa-link"></i> Live Demo
+            </a>
+            <a href="https://github.com/amnazafar-25/weather-app" target="_blank" class="btn-icon outline">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--  Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container" data-aos="fade-up">
+      <h2 class="section-title">Let's Connect</h2>
+      <form action="https://formspree.io/f/mvgqgoda" method="POST" class="contact-form">
+        <div class="input-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="input-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i><a href="mailto:amnazafar2807@gmail.com">amnazafar2807@gmail.com</a></p>
+        <p><i class="fab fa-github"></i> <a href="https://github.com/amnazafar-25" target="_blank">GitHub</a></p>
+        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aamna-zafar07"target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <!--  Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Amna Zafar. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:amnazafar2807@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/amnazafar-25" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aamna-zafar07" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
